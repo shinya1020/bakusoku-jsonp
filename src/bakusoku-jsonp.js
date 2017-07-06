@@ -67,8 +67,8 @@ void function(global, document) {
 
                 //APIがYJDNのものであればクレジット表示を追加
                 if (/yahooapis\.jp/.test(attrs['data-url'].nodeValue)) {
-                    credit = '<a href="http://developer.yahoo.co.jp/about/" style="display:block;width:125px;height:17px;padding:0;margin:4px 0 15px 0">'
-                           + '<img src="http://i.yimg.jp/images/yjdn/yjdn_attbtn1_125_17.gif" title="Webサービス by Yahoo! JAPAN" alt="Web Services by Yahoo! JAPAN" width="125" height="17" border="0" />'
+                    credit = '<a href="https://developer.yahoo.co.jp/about/" style="display:block;width:125px;height:17px;padding:0;margin:4px 0 15px 0">'
+                           + '<img src="https://s.yimg.jp/images/yjdn/yjdn_attbtn1_125_17.gif" title="Webサービス by Yahoo! JAPAN" alt="Web Services by Yahoo! JAPAN" width="125" height="17" border="0" />'
                            + '</a>';
                 }
 
